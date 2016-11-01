@@ -4,10 +4,13 @@
 
 Keep an eye on your most important metric. Numbar is a macOS app that reads remote JSON and displays your valued metrics in your menu bar.
 
+[![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
+
+![](http://i.imgur.com/bWhaMrs.png)
 
 ## How it Works
 
-![](http://i.imgur.com/r2QqJ2c.png)
+![](http://i.imgur.com/jLMqBiF.png)
 
 
 ## Table of Contents
