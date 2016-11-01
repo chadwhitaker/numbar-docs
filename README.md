@@ -1,4 +1,4 @@
-![](http://i.imgur.com/oNsRiHo.png)
+[![](http://i.imgur.com/iJQSL9a.png)](https://numbarapp.com)
 
 # Numbar Documentation
 
