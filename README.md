@@ -13,6 +13,7 @@ Keep an eye on your most important metric. Numbar is a macOS app that reads remo
 
 ## Table of Contents
 
+- [How it Works](#how-it-works)
 - [Getting Started](#getting-started)
 - [Dropdown](#dropdown)
 - [Security (Basic Auth)](#security-basic-auth)
