@@ -28,11 +28,11 @@ To get started, output a property called `primary` with a value that is very imp
 }
 ```
 
-![](http://i.imgur.com/7tO6Mxm.png)
+<img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
 After your endpoint is online and displaying your one important metric, copy and paste the URL to the “Endpoint” setting inside the Numbar app preferences.
 
-![](http://i.imgur.com/zXGVgMO.png)
+<img src="http://i.imgur.com/zXGVgMO.png" alt="" width="450">
 
 Number will now ping your endpoint every 30 seconds and check for any change. If there is a change that new value will reflect in your menu bar. You can change the update interval inside the General Preferences.
 
@@ -55,7 +55,7 @@ Include a `secondary` property with an array of values for as many data points a
 }
 ```
 
-![](http://i.imgur.com/6zYC6bg.png)
+<img src="http://i.imgur.com/6zYC6bg.png" alt="" width="365">
 
 ### Option B: Structured Rows
 
@@ -78,7 +78,7 @@ You can structure your list in easy to read rows using the following output in y
 }
 ```
 
-![](http://i.imgur.com/qkaIFGt.png)
+<img src="http://i.imgur.com/qkaIFGt.png" alt="" width="365">
 
 Note: You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the title property (see above.)
 
@@ -89,11 +89,11 @@ You can secure your endpoint using Basic Auth. Numbar will automatically display
 
 Be sure to select the checkbox to save your password to the macOS keychain. This will prevent the need to reenter you credentials in the future.
 
-![](http://i.imgur.com/KEUUOuY.png)
+<img src="http://i.imgur.com/KEUUOuY.png" alt="" width="444">
 
 
 ## Headers
 
 Numbar supports sending request headers for each request to your endpoint. You can manage your headers inside the General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-![](http://i.imgur.com/8t8uT15.png)
+<img src="http://i.imgur.com/8t8uT15.png" alt="" width="450">
