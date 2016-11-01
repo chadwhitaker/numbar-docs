@@ -6,8 +6,6 @@ Keep an eye on your most important metric. Numbar is a macOS app that reads remo
 
 [![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
   
-  <br/>
-
 ![](http://i.imgur.com/bWhaMrs.png)
 
   <br/><br/><br/>
