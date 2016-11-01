@@ -5,13 +5,18 @@
 Keep an eye on your most important metric. Numbar is a macOS app that reads remote JSON and displays your valued metrics in your menu bar.
 
 [![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
+  
+  <br/>
 
 ![](http://i.imgur.com/bWhaMrs.png)
+
+  <br/><br/><br/><br/>
 
 ## How it Works
 
 ![](http://i.imgur.com/jLMqBiF.png)
 
+  <br/><br/><br/><br/>
 
 ## Table of Contents
 
@@ -20,6 +25,7 @@ Keep an eye on your most important metric. Numbar is a macOS app that reads remo
 - [Security (Basic Auth)](#security-basic-auth)
 - [Headers](#headers)
 
+  <br/><br/><br/><br/>
 
 ## Getting Started
 
@@ -39,10 +45,13 @@ After your endpoint is online and displaying your one important metric, copy and
 
 Number will now ping your endpoint every 30 seconds and check for any change. If there is a change that new value will reflect in your menu bar. You can change the update interval inside the General Preferences.
 
+  <br/><br/><br/><br/>
 
 ## Dropdown
 
 Want to list more data points? You can via the dropdown in Numbar. All you need to do is include a `secondary` property in your endpoint’s JSON. There are two formats you can use:
+
+  <br/><br/>
 
 ### Option A: Plain List
 
@@ -59,6 +68,8 @@ Include a `secondary` property with an array of values for as many data points a
 ```
 
 <img src="http://i.imgur.com/6zYC6bg.png" alt="" width="365">
+
+  <br/><br/>
 
 ### Option B: Structured Rows
 
@@ -85,6 +96,7 @@ You can structure your list in easy to read rows using the following output in y
 
 Note: You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the title property (see above.)
 
+  <br/><br/><br/><br/>
 
 ## Security (Basic Auth)
 
@@ -94,6 +106,7 @@ Be sure to select the checkbox to save your password to the macOS keychain. This
 
 <img src="http://i.imgur.com/KEUUOuY.png" alt="" width="444">
 
+  <br/><br/><br/><br/>
 
 ## Headers
 
