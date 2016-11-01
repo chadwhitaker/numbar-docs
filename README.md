@@ -2,7 +2,7 @@
 
 # Numbar Documentation
 
-Keep an eye on your most important metric. Numbar is a macOS app that reads remote JSON and displays your valued metrics in your menu bar.
+Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds, using the instructions below.
 
 [![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
   
@@ -29,7 +29,9 @@ Keep an eye on your most important metric. Numbar is a macOS app that reads remo
 
 ## Getting Started
 
-To get started, output a property called `primary` with a value that is very important to you. For example, you could output your business’s daily revenue, or count the number of today’s new users from your database.
+To get started, output some JSON with a property called `primary` with a value or metric that is very important to you. This should be a value that often changes and something you want to keep a close eye on at all times. 
+
+For example, you could output your business' daily revenue, or count the number of today’s new users from your database.
 
 ```
 {
@@ -39,23 +41,29 @@ To get started, output a property called `primary` with a value that is very imp
 
 <img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
-After your endpoint is online and displaying your one important metric, copy and paste the URL to the “Endpoint” setting inside the Numbar app preferences.
+Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON's URL to verify your important metric is displaying correctly. (Note: You can protect this endpoint using Basic Auth. [Learn More](#security-basic-auth))
+
+Finally, copy the URL for your JSON and paste it in the “Endpoint” setting inside of the Numbar app preferences:
 
 <img src="http://i.imgur.com/zXGVgMO.png" alt="" width="450">
 
-Number will now ping your endpoint every 30 seconds and check for any change. If there is a change that new value will reflect in your menu bar. You can change the update interval inside the General Preferences.
+Numbar will now ping your endpoint every 30 seconds and check for any changes. If there is a change, that new value will reflect in your macOS menu bar. 
+
+Note: You can modify the update interval inside the Numbar General Preferences.
 
   <br/><br/><br/>
 
 ## Dropdown
 
-Want to list more data points? You can via the dropdown in Numbar. All you need to do is include a `secondary` property in your endpoint’s JSON. There are two formats you can use:
+Displaying one important metric is great, but sometimes you need to access more data quickly. You can extend your metrics using the Numbar dropdown.
+
+To display more metrics inside the Numbar dropdown include a `secondary` property in your remote JSON. There are two formats you can use:
 
 <br/>
 
 #### Option A: Plain List
 
-Include a `secondary` property with an array of values for as many data points as you wish:
+Include a `secondary` property with an array of metrics:
 
 ```
 {
@@ -73,7 +81,7 @@ Include a `secondary` property with an array of values for as many data points a
 
 #### Option B: Structured Rows
 
-You can structure your list in easy to read rows using the following output in your `secondary` property:
+Structure your list in easy to read rows using the following output in the `secondary` property:
 
 ```
 {
@@ -94,15 +102,15 @@ You can structure your list in easy to read rows using the following output in y
 
 <img src="http://i.imgur.com/qkaIFGt.png" alt="" width="365">
 
-Note: You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the title property (see above.)
+Tip: You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the `title` property in your JSON. See the example above.
 
   <br/><br/><br/>
 
 ## Security (Basic Auth)
 
-You can secure your endpoint using Basic Auth. Numbar will automatically display a prompt to enter your username and password if authorization is required.
+You can secure your important metrics from the public by activating Basic Auth on your endpoint. Numbar will automatically detect and display a prompt to enter your username and password if authorization is required.
 
-Be sure to select the checkbox to save your password to the macOS keychain. This will prevent the need to reenter you credentials in the future.
+Be sure to select the "Remember" checkbox to securely save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
 
 <img src="http://i.imgur.com/KEUUOuY.png" alt="" width="444">
 
@@ -110,6 +118,6 @@ Be sure to select the checkbox to save your password to the macOS keychain. This
 
 ## Headers
 
-Numbar supports sending request headers for each request to your endpoint. You can manage your headers inside the General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+Numbar supports sending custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
 <img src="http://i.imgur.com/8t8uT15.png" alt="" width="450">
