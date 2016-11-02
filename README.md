@@ -1,4 +1,4 @@
-[![](<img src="http://i.imgur.com/LsDRVD9.png" alt="" width="155">)](https://numbarapp.com)
+[<img src="http://i.imgur.com/LsDRVD9.png" alt="" width="155">](https://numbarapp.com)
 
 # Numbar Documentation
 
