@@ -2,7 +2,7 @@
 
 # Numbar Documentation
 
-Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
+Keep an eye on your most important metrics. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
 
 [<img src="http://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
   
@@ -35,7 +35,7 @@ Numbar is simply a client that reads JSON from a remote web page that you create
 
 To begin, output a property called `primary` with a value or metric that is very important to you. The `primary` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
 
-For example, you could output your business' daily revenue, or count the number of today’s new users from your database.
+For example, you could pull your business' daily revenue from Mixpanel's API, or count the number of new users from your database.
 
 ```json
 {
@@ -45,7 +45,9 @@ For example, you could output your business' daily revenue, or count the number 
 
 <img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
-Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON URL to verify your important metric is displaying correctly. (Note: You can always secure this endpoint using Basic Auth. [Learn More](#security-basic-auth))
+Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON URL to verify your important metric is displaying correctly. 
+
+You can always secure this endpoint using Basic Auth. [Learn More](#security-basic-auth)
 
 Finally, copy the URL for your remote JSON page and paste it in the “Endpoint” setting inside of the Numbar app preferences:
 
