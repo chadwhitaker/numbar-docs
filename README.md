@@ -29,7 +29,9 @@ Keep an eye on your most important metric. Numbar is a macOS app that displays _
 
 ## Getting Started
 
-Numbar is simply a client that reads JSON from a remote web page that you provide. Below are the specific JSON properties that Numbar can receive to display your metrics. You can use whichever programming language you want, as long as it returns valid JSON to the page. 
+Numbar is simply a client that reads JSON from a remote web page that you create. Below are the specific JSON properties that Numbar can receive to display your metrics in your menu bar. You can use whichever programming language you want, as long as it returns valid JSON to the page.
+
+<br>
 
 To begin, output a property called `primary` with a value or metric that is very important to you. The `primary` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
 
@@ -43,23 +45,23 @@ For example, you could output your business' daily revenue, or count the number 
 
 <img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
-Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON's URL to verify your important metric is displaying correctly. (Note: You can protect this endpoint using Basic Auth. [Learn More](#security-basic-auth))
+Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON URL to verify your important metric is displaying correctly. (Note: You can always secure this endpoint using Basic Auth. [Learn More](#security-basic-auth))
 
-Finally, copy the URL for your JSON and paste it in the “Endpoint” setting inside of the Numbar app preferences:
+Finally, copy the URL for your remote JSON page and paste it in the “Endpoint” setting inside of the Numbar app preferences:
 
 <img src="http://i.imgur.com/zXGVgMO.png" alt="" width="462">
 
-Numbar will now ping your endpoint every 30 seconds and check for any changes. If there is a change, that new value will reflect in your macOS menu bar. 
+Numbar will now visit your endpoint every 30 seconds and check for any changes. If there is a change, the new value will reflect in your macOS menu bar.
 
-Note: You can modify the update interval inside the Numbar General Preferences.
+Note: You can modify how often Numbar checks for changes inside the Numbar General Preferences.
 
   <br/><br/><br/>
 
 ## Dropdown
 
-Displaying one important metric is great, but sometimes you need to access more data quickly. You can extend your metrics using the Numbar dropdown.
+Displaying one important metric is great, but sometimes you need access to more data. You can extend your metrics using the Numbar dropdown.
 
-To display more metrics inside the Numbar dropdown include a `secondary` property in your remote JSON. There are two formats you can use:
+To display more metrics inside the Numbar dropdown, include a `secondary` property in your remote JSON. There are two formats you can use:
 
 <br/>
 
