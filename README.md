@@ -118,7 +118,7 @@ You can change the title inside the dropdown from “Numbar” to a custom title
 
 ## Security (Basic Auth)
 
-You can secure your important metrics from the public by activating Basic Auth on your endpoint. Numbar will automatically detect and display a prompt to enter your username and password if authorization is required.
+You can secure your important metrics from the public by activating [Basic Auth](https://en.wikipedia.org/wiki/Basic_access_authentication) on your JSON endpoint. Numbar will automatically detect and display a prompt to enter your username and password if authorization is required.
 
 Be sure to select the "Remember" checkbox to securely save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
 
@@ -128,6 +128,6 @@ Be sure to select the "Remember" checkbox to securely save your password to the 
 
 ## Headers
 
-Numbar supports sending custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+Numbar supports the sending of custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
 <img src="http://i.imgur.com/8t8uT15.png" alt="" width="494">
