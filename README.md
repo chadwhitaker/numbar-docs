@@ -2,7 +2,7 @@
 
 # Numbar Documentation
 
-Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds, using the instructions below.
+Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
 
 [![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
   
@@ -29,11 +29,13 @@ Keep an eye on your most important metric. Numbar is a macOS app that displays _
 
 ## Getting Started
 
-To get started, output some JSON with a property called `primary` with a value or metric that is very important to you. This should be a value that often changes and something you want to keep a close eye on at all times. 
+Numbar is simply a client that reads JSON from a remote web page that you provide. Below are the specific JSON properties that Numbar can receive to display your metrics. You can use whichever programming language you want, as long as it returns valid JSON to the page. 
+
+To begin, output a property called `primary` with a value or metric that is very important to you. The `primary` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
 
 For example, you could output your business' daily revenue, or count the number of today’s new users from your database.
 
-```
+```json
 {
   "primary": "$123.42"
 }
@@ -65,7 +67,7 @@ To display more metrics inside the Numbar dropdown include a `secondary` propert
 
 Include a `secondary` property with an array of metrics:
 
-```
+```json
 {
   "primary": 948,
   "secondary": [
@@ -83,7 +85,7 @@ Include a `secondary` property with an array of metrics:
 
 Structure your list in easy to read rows using the following output in the `secondary` property:
 
-```
+```json
 {
   "primary": 379,
   "secondary": [
