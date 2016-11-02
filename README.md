@@ -102,7 +102,11 @@ Structure your list in easy to read rows using the following output in the `seco
 
 <img src="http://i.imgur.com/qkaIFGt.png" alt="" width="365">
 
-Tip: You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the `title` property in your JSON. See the example above.
+<br/>
+
+#### Dropdown Title
+
+You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the `title` property in your JSON. See the example above.
 
   <br/><br/><br/>
 
