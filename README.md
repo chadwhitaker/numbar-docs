@@ -47,7 +47,7 @@ Next, make this JSON publically available online and accessible from a URL. You'
 
 Finally, copy the URL for your JSON and paste it in the “Endpoint” setting inside of the Numbar app preferences:
 
-<img src="http://i.imgur.com/zXGVgMO.png" alt="" width="450">
+<img src="http://i.imgur.com/zXGVgMO.png" alt="" width="462">
 
 Numbar will now ping your endpoint every 30 seconds and check for any changes. If there is a change, that new value will reflect in your macOS menu bar. 
 
@@ -77,7 +77,7 @@ Include a `secondary` property with an array of metrics:
 }
 ```
 
-<img src="http://i.imgur.com/6zYC6bg.png" alt="" width="365">
+<img src="http://i.imgur.com/6zYC6bg.png" alt="" width="398">
 
 <br/>
 
@@ -102,7 +102,7 @@ Structure your list in easy to read rows using the following output in the `seco
 }
 ```
 
-<img src="http://i.imgur.com/qkaIFGt.png" alt="" width="365">
+<img src="http://i.imgur.com/qkaIFGt.png" alt="" width="398">
 
 <br/>
 
@@ -118,7 +118,7 @@ You can secure your important metrics from the public by activating Basic Auth o
 
 Be sure to select the "Remember" checkbox to securely save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
 
-<img src="http://i.imgur.com/KEUUOuY.png" alt="" width="444">
+<img src="http://i.imgur.com/KEUUOuY.png" alt="" width="536">
 
   <br/><br/><br/>
 
@@ -126,4 +126,4 @@ Be sure to select the "Remember" checkbox to securely save your password to the 
 
 Numbar supports sending custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-<img src="http://i.imgur.com/8t8uT15.png" alt="" width="450">
+<img src="http://i.imgur.com/8t8uT15.png" alt="" width="494">
