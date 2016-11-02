@@ -1,12 +1,12 @@
-[![](http://i.imgur.com/iJQSL9a.png)](https://numbarapp.com)
+[![](<img src="http://i.imgur.com/LsDRVD9.png" alt="" width="155">)](https://numbarapp.com)
 
 # Numbar Documentation
 
 Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
 
-[![](http://i.imgur.com/cnvGseA.png)](https://numbarapp.com)
+[<img src="http://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
   
-![](http://i.imgur.com/bWhaMrs.png)
+<img src="http://i.imgur.com/XvxejHE.png" alt="" width="590">
 
   <br/><br/><br/>
 
@@ -23,7 +23,7 @@ Keep an eye on your most important metric. Numbar is a macOS app that displays _
 
 ## How it Works
 
-![](http://i.imgur.com/jLMqBiF.png)
+<img src="http://i.imgur.com/bhGwcKI.png" alt="">
 
   <br/><br/><br/>
 
