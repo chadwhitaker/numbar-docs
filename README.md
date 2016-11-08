@@ -33,13 +33,13 @@ Numbar is simply a client that reads JSON from a remote web page that you create
 
 <br>
 
-To begin, output a property called `primary` with a value or metric that is very important to you. The `primary` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
+To begin, output a property called `menubar` with a value or metric that is very important to you. The `menubar` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
 
 For example, you could pull your business' daily revenue from Mixpanel's API, or count the number of new users from your database.
 
 ```json
 {
-  "primary": "$123.42"
+  "menubar": "$123.42"
 }
 ```
 
@@ -63,18 +63,18 @@ Note: You can modify how often Numbar checks for changes inside the Numbar Gener
 
 Displaying one important metric is great, but sometimes you need access to more data. You can extend your metrics using the Numbar dropdown.
 
-To display more metrics inside the Numbar dropdown, include a `secondary` property in your remote JSON. There are two formats you can use:
+To display more metrics inside the Numbar dropdown, include a `dropdown` property in your remote JSON. There are two formats you can use:
 
 <br/>
 
 #### Option A: Plain List
 
-Include a `secondary` property with an array of metrics:
+Include a `dropdown` property with an array of metrics:
 
 ```json
 {
-  "primary": 948,
-  "secondary": [
+  "menubar": 948,
+  "dropdown": [
    "Average Sales - 1.69",
    "Funnel Completion - 70.20%"
   ]
@@ -87,12 +87,12 @@ Include a `secondary` property with an array of metrics:
 
 #### Option B: Structured Rows
 
-Structure your list in easy to read rows using the following output in the `secondary` property:
+Structure your list in easy to read rows using the following output in the `dropdown` property:
 
 ```json
 {
-  "primary": 379,
-  "secondary": [
+  "menubar": 379,
+  "dropdown": [
     {
       "title": "New Users",
       "value": 364
