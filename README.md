@@ -23,7 +23,7 @@ Keep an eye on your most important metrics. Numbar is a macOS app that displays 
 
 ## How it Works
 
-<img src="http://i.imgur.com/bhGwcKI.png" alt="">
+<img src="http://i.imgur.com/SrUfxKK.png" alt="">
 
   <br/><br/><br/>
 
