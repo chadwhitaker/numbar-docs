@@ -4,9 +4,9 @@
 
 Keep an eye on your most important metrics. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
 
-[<img src="http://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
+[<img src="https://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
   
-<img src="http://i.imgur.com/XvxejHE.png" alt="" width="590">
+<img src="https://i.imgur.com/XvxejHE.png" alt="" width="590">
 
   <br/><br/><br/>
 
@@ -23,7 +23,7 @@ Keep an eye on your most important metrics. Numbar is a macOS app that displays 
 
 ## How it Works
 
-<img src="http://i.imgur.com/SrUfxKK.png" alt="">
+<img src="https://i.imgur.com/DA2GK7A.png" alt="">
 
   <br/><br/><br/>
 
@@ -106,7 +106,7 @@ Structure your list in easy to read rows using the following output in the `drop
 }
 ```
 
-<img src="http://i.imgur.com/qkaIFGt.png" alt="" width="398">
+<img src="https://i.imgur.com/qkaIFGt.png" alt="" width="398">
 
 <br/>
 
@@ -122,7 +122,7 @@ You can secure your important metrics from the public by activating [Basic Auth]
 
 Be sure to select the "Remember" checkbox to securely save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
 
-<img src="http://i.imgur.com/KEUUOuY.png" alt="" width="536">
+<img src="https://i.imgur.com/KEUUOuY.png" alt="" width="536">
 
   <br/><br/><br/>
 
@@ -130,4 +130,4 @@ Be sure to select the "Remember" checkbox to securely save your password to the 
 
 Numbar supports the sending of custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
-<img src="http://i.imgur.com/8t8uT15.png" alt="" width="494">
+<img src="https://i.imgur.com/8t8uT15.png" alt="" width="494">
