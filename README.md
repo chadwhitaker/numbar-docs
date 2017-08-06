@@ -2,7 +2,7 @@
 
 # Numbar Documentation
 
-Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ metrics in your macOS menu bar. Learn how to get started in seconds using the instructions below.
+Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ metrics in the macOS menu bar. Get started in seconds using the instructions below.
 
 [<img src="https://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com/download)
   
@@ -31,11 +31,11 @@ Keep an eye on your most important metric. Numbar is a macOS app that displays _
 
 ## Getting Started
 
-Numbar is a simple client that reads JSON on a remote web page that you create. Below are the specific JSON properties that Numbar can receive for displaying values in your menu bar. You may use whichever programming language you want, as long as it outputs valid JSON.
+Numbar is a simple client that reads JSON on a remote web page that you've created. Below are the specific JSON properties that Numbar can receive for displaying values in your menu bar. You may use whichever programming language you want, as long as it outputs valid JSON.
 
 <br>
 
-To begin, output a property called `menubar` with a value or metric that is very important to you. The `menubar` value is what you'll see in your macOs menu bar, so this should be something that often changes and is of high interest to you. 
+To begin, output a property called `menubar` with a value or metric that is very important to you. The `menubar` value is what you'll see in your macOS menu bar, so this should be something that often changes and is important to you. 
 
 
 ```json
@@ -46,7 +46,7 @@ To begin, output a property called `menubar` with a value or metric that is very
 
 <img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
-Next, make this JSON accessible online via a URL, and then copy that URL to the “Endpoint” setting inside of the Numbar app preferences:
+Next, make this JSON accessible online via a URL. Then, copy that URL to the “Endpoint” setting inside of the Numbar app preferences:
 
 <img src="http://i.imgur.com/zXGVgMO.png" alt="" width="462">
 
