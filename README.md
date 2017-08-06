@@ -1,8 +1,8 @@
-[<img src="http://i.imgur.com/LsDRVD9.png" alt="" width="155">](https://numbarapp.com)
+[<img src="https://i.imgur.com/Ko0ULbt.png" alt="" width="155">](https://numbarapp.com)
 
 # Numbar Documentation
 
-Keep an eye on your most important metrics. Numbar is a macOS app that displays _your_ most valued metrics in your menu bar. Learn how to get started in seconds using the instructions below.
+Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ metrics in your macOS menu bar. Learn how to get started in seconds using the instructions below.
 
 [<img src="https://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
   
@@ -23,19 +23,20 @@ Keep an eye on your most important metrics. Numbar is a macOS app that displays 
 
 ## How it Works
 
+<br/><br/>
+
 <img src="https://i.imgur.com/dPcKicx.png" alt="">
 
-  <br/><br/><br/>
+  <br/>
 
 ## Getting Started
 
-Numbar is simply a client that reads JSON from a remote web page that you create. Below are the specific JSON properties that Numbar can receive to display your metrics in your menu bar. You can use whichever programming language you want, as long as it returns valid JSON to the page.
+Numbar is a simple client that reads JSON on a remote web page that you create. Below are the specific JSON properties that Numbar can receive for displaying values in your menu bar. You may use whichever programming language you want, as long as it outputs valid JSON.
 
 <br>
 
-To begin, output a property called `menubar` with a value or metric that is very important to you. The `menubar` value is what you'll see in your menu bar, so this should be a value that often changes and is of high interest to you. 
+To begin, output a property called `menubar` with a value or metric that is very important to you. The `menubar` value is what you'll see in your macOs menu bar, so this should be something that often changes and is of high interest to you. 
 
-For example, you could pull your business' daily revenue from Mixpanel's API, or count the number of new users from your database.
 
 ```json
 {
@@ -45,29 +46,25 @@ For example, you could pull your business' daily revenue from Mixpanel's API, or
 
 <img src="http://i.imgur.com/7tO6Mxm.png" alt="" width="421">
 
-Next, make this JSON publically available online and accessible from a URL. You'll want to visit your JSON URL to verify your important metric is displaying correctly. 
-
-You can always secure this endpoint using Basic Auth. [Learn More](#security-basic-auth)
-
-Finally, copy the URL for your remote JSON page and paste it in the “Endpoint” setting inside of the Numbar app preferences:
+Next, make this JSON accessible online via a URL, and then copy that URL to the “Endpoint” setting inside of the Numbar app preferences:
 
 <img src="http://i.imgur.com/zXGVgMO.png" alt="" width="462">
 
-Numbar will now visit your endpoint every 30 seconds and check for any changes. If there is a change, the new value will reflect in your macOS menu bar.
+Numbar will now check your endpoint every 30 seconds for any changes. If there is a change, the new value will reflect in your menu bar.
 
-Note: You can modify how often Numbar checks for changes inside the Numbar General Preferences.
+Note: You can secure this endpoint using a password by enabling Basic Auth. [Learn More](#security-basic-auth)
 
   <br/><br/><br/>
 
 ## Dropdown
 
-Displaying one important metric is great, but sometimes you need access to more data. You can extend your metrics using the Numbar dropdown.
+Displaying one important metric is great, but sometimes you need quick access to more. Numbar allows you to extend your metrics inside the Numbar dropdown.
 
-To display more metrics inside the Numbar dropdown, include a `dropdown` property in your remote JSON. There are two formats you can use:
+To display a table of metrics inside the Numbar dropdown, include the `dropdown` property in your remote JSON. There are two formats you can use:
 
 <br/>
 
-#### Option A: Plain List
+#### Dropdown Option A: Plain List
 
 Include a `dropdown` property with an array of metrics:
 
@@ -85,9 +82,9 @@ Include a `dropdown` property with an array of metrics:
 
 <br/>
 
-#### Option B: Structured Rows
+#### Dropdown Option B: Structured Rows
 
-Structure your list in easy to read rows using the following output in the `dropdown` property:
+Structure your list in easy to read rows using the `title`, `value` properties inside the `dropdown` array:
 
 ```json
 {
@@ -112,15 +109,15 @@ Structure your list in easy to read rows using the following output in the `drop
 
 #### Dropdown Title
 
-You can change the title inside the dropdown from “Numbar” to a custom title (e.g. MyStartup.com) by including the `title` property in your JSON. See the example above.
+You can change the title inside the dropdown header from “Numbar” to any custom title (e.g. MyStartup.com). Just include the `title` property in your JSON. See the example above.
 
   <br/><br/><br/>
 
 ## Security (Basic Auth)
 
-You can secure your important metrics from the public by activating [Basic Auth](https://en.wikipedia.org/wiki/Basic_access_authentication) on your JSON endpoint. Numbar will automatically detect and display a prompt to enter your username and password if authorization is required.
+Secure your important metrics from the public by activating [Basic Auth](https://en.wikipedia.org/wiki/Basic_access_authentication) on your JSON endpoint. Numbar will automatically display a prompt to enter your username and password if authorization is required.
 
-Be sure to select the "Remember" checkbox to securely save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
+Be sure to select the "Remember" checkbox to save your password to the macOS Keychain. This will prevent the need to reenter your credentials in the future.
 
 <img src="https://i.imgur.com/KEUUOuY.png" alt="" width="536">
 
@@ -128,6 +125,6 @@ Be sure to select the "Remember" checkbox to securely save your password to the 
 
 ## Headers
 
-Numbar supports the sending of custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+Numbar supports custom headers for each request to your endpoint. You can manage your headers inside the Numbar General Preferences. [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 
 <img src="https://i.imgur.com/8t8uT15.png" alt="" width="494">
