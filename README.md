@@ -4,7 +4,7 @@
 
 Keep an eye on your most important metric. Numbar is a macOS app that displays _your_ metrics in your macOS menu bar. Learn how to get started in seconds using the instructions below.
 
-[<img src="https://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com)
+[<img src="https://i.imgur.com/IKWWYdm.png" alt="" width="274">](https://numbarapp.com/download)
   
 <img src="https://i.imgur.com/XvxejHE.png" alt="" width="590">
 
